@@ -1,0 +1,15 @@
+{
+    "azureFunctions.deploySubpath": "packages/job-function",
+    "azureFunctions.projectLanguage": "Custom",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectSubpath": "packages/job-function",
+    "filewatcher.commands": [
+        {
+            "match": "\\.go*",
+            "isAsync": true,
+            "cmd": "cd /Users/julianiff/Documents/dev/projects/flyby-azure-functions-sr/packages/job-registration-function && go build . && cat host.json > host_new.json && rm host.json && cat host_new.json > host.json && rm host_new.json",
+            "event": "onFileChange"
+        }        
+    ]
+}
