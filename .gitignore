@@ -1,6 +1,5 @@
-
-# Azure Functions artifacts
-bin
-obj
-appsettings.json
-local.settings.json
+#Azurite Jsons
+__queuestorage__
+__azurite_db_queue__.json
+__azurite_db_queue_extent__.json
+packages/job-registration-function/job-registration-func
